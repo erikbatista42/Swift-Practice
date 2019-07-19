@@ -75,15 +75,3 @@ side
 
 // *UIKit will give you errors! They will say "This is a get-only property. You can't change it" - Apple Prevent us from messing around with their code
 
-var score: Int = 20 {
-    
-    willSet(newScore) {
-        print("Your score is going to be \(newScore)")
-    }
-    
-    didSet(oldScore) {
-        print("Your old score was: \(oldScore). Now it's \(score)")
-    }
-}
-
-score = 25
