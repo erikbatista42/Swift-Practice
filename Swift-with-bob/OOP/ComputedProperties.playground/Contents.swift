@@ -6,5 +6,7 @@
  
  */
 
-
+func getDiameter(radius: Double) -> Double {
+    return radius * 2
+}
 
